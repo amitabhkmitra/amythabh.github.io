@@ -5,6 +5,7 @@ body{
 }
 
 .navbar{
+	display:flex;
 	color:white;
 	margin:24px;
 	padding:24px;
