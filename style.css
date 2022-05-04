@@ -1,14 +1,14 @@
 body{
-	background-color:white;
-	color:black;
+	background-color:#eeeeee;
+	color:#121212;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar{
-	color:white;
+	color:#eeeeee;
 	margin:24px;
 	padding:24px;
-	background-color:black;
+	background-color:#121212;
 	border-radius:50px;
 }
 
@@ -18,19 +18,19 @@ body{
 
 button{
 	border-radius:24px;
-	border-color:black;
+	border-color:#121212;
 	border:100;
-	background-color:white;
-	color:black;
+	background-color:#eeeeee;
+	color:#121212;
 	width:200px;
 	cursor:pointer;
 	font-size:30px;
 }
 
 button:hover{
-	border-color:white;
-	background-color:black;
-	color:white;
+	border-color:#eeeeee;
+	background-color:#121212;
+	color:#eeeeee;
 }
 
 .feed{
@@ -38,8 +38,8 @@ button:hover{
 	margin:30px;
 	padding:30px;
 	font-size:30px;
-	color:white;
-	background-color:black;
+	color:#eeeeee;
+	background-color:#121212;
 }
 
 .links{
@@ -49,6 +49,7 @@ button:hover{
 link1,link2,link3,liink4,link5,link6,link7,link8,link9{
 	display:flex;
 	border-radius:50px;
+	background-color:#242424;
 }
 
 img{
