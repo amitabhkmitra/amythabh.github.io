@@ -49,7 +49,7 @@ button:hover{
 link1,link2,link3,liink4,link5,link6,link7,link8,link9{
 	display:flex;
 	border-radius:50px;
-	background-color:#242424;
+	background-color:grey;
 }
 
 img{
