@@ -19,13 +19,16 @@ body{
 
 .feed{
 	border-radius:50px;
+	background-color:#212121;
+	display:block;
 	margin:3px;
 	padding:3px;
 	font-size:3px;
 }
 
 .links{
-	background-color:#212121;
+	border-radius:50px;
+	background-color:#121212;
 	display:block;
 }
 
