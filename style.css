@@ -1,6 +1,6 @@
 body{
-	background-color:#ffffff;
-	color:#37352f;
+	background-color:#od1117;
+	color:#eeeeee;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -9,9 +9,7 @@ ul {
  	margin: 0;
   	padding: 0;
   	overflow: hidden;
-  	background-color: #dddddd;
-	border:none;
-	border-radius:15px;
+  	background-color: #161b22;
 }
 
 li {
@@ -20,7 +18,7 @@ li {
 
 li a {
   	display: block;
-  	color: #37352f;
+  	color: #eeeeee;
   	text-align: center;
   	padding: 14px 16px;
   	text-decoration: none;
@@ -28,8 +26,7 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  	background-color: #37352f;
-	color:white;
+  	background-color: #od1117;
 }
 
 .featured{
