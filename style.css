@@ -5,6 +5,7 @@ body{
 }
 
 ul {
+	display:flex;
 	text-align:justify;
 	cursor:text;
  	list-style-type: none;
