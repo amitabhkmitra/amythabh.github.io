@@ -5,14 +5,15 @@ body{
 }
 
 ul {
+	text-align:justify;
+	cursor:text;
  	list-style-type: none;
   	margin: 0;
   	padding: 0;
-	background-color:#999999;
+	color:#999999;
 }
 
 .featured{
-	border-radius:20px;
 	margin:10px;
 	padding:20px;
 }
@@ -23,6 +24,6 @@ h1,p{
 }
 
 a{
-	color:black;
+	color:#eeeeee;
 	text-decoration:none;
 }
