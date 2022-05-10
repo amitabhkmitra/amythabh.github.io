@@ -5,28 +5,31 @@ body{
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #ffffff;
+  	list-style-type: none;
+ 	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: #555555;
+	border:none;
+	border-radius:15px;
 }
 
 li {
-  float: left;
+  	float: left;
 }
 
 li a {
-  display: block;
-  color: #000000;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  	display: block;
+  	color: #37352f;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
 }
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #999999;
+  	background-color: #37352f;
+	color:white;
 }
 
 .featured{
@@ -40,6 +43,6 @@ h6,p{
 }
 
 a{
-	color:#eeeeee;
+	color:#37352f;
 	text-decoration:none;
 }
