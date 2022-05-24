@@ -1,13 +1,8 @@
 body{
+  padding:40px;
   background-color:#111111;
   color:#eeeeee;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.feed{
-  padding:40px;
-  border-radius: 10px;
-  background-color: #222222;
 }
 
 h1{
