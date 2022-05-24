@@ -1,0 +1,28 @@
+body{
+  background-color:#111111;
+  color:#eeeeee;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.feed{
+  padding:40px;
+  border-radius: 10px;
+  background-color: #222222;
+}
+
+h1{
+  color:cyan;
+}
+
+a{
+  color:#eeeeee;
+  text-decoration:underline;
+}
+
+ a:hover{
+  color:cyan;
+}
+
+.nametag{
+  text-decoration: none;
+}
