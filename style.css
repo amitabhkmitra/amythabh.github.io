@@ -36,3 +36,6 @@ table{
 table td{
 	padding:5px;
 }
+h1,h2,p{
+	text-align:left;
+}
