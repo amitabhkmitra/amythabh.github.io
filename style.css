@@ -2,6 +2,7 @@ body{
 	background-color:purple;
 	color:#555555;
 	font-family:Arial;
+	text-align:justify;
 }
 div{
 	width:640px;
@@ -34,7 +35,4 @@ table{
 }
 table td{
 	padding:5px;
-}
-h1,h2{
-	text-align:justify;
 }
