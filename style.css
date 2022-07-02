@@ -1,0 +1,42 @@
+body{
+	font-family: Arial;
+	margin-left:240px;
+	margin-right:240px;
+}	
+
+p,h2,h3,h4,h5,h6{
+	color:#444444;
+}
+
+.emoji{
+	float:left;
+	height:30px;
+}
+
+.logo{
+	height:30px;
+}
+
+.dp{
+	float:left;
+	border-radius:50%;
+	height:80px;
+	width:80px;
+	margin-right:20px;
+}
+
+.button{
+	padding:5px;
+	background-color:#000000;
+	color:#ffffff;
+	border-radius:5px;
+}
+
+a,h1{
+	color:#000000;
+	text-decoration:none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
