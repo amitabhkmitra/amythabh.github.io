@@ -2,37 +2,47 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>My Personal Website</title>
+  <title>My Music Player</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="header">
-    <h1 class="header-title">My Personal Website</h1>
-    <nav class="header-nav">
-      <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#interests">Interests</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <h1 class="header-title">My Music Player</h1>
   </header>
   <div class="container">
-    <section id="about" class="section">
-      <h2 class="section-title">About Me</h2>
-      <p>Hi, my name is [Your Name] and this is my personal website. I am a [Your Occupation] and have been working in the field for [Number] years. I am passionate about [Your Interests] and always strive to learn and grow in my career. Thank you for visiting my website. I hope you enjoy learning more about me!</p>
+    <section class="section">
+      <h2 class="section-title">Now Playing</h2>
+      <div class="card">
+        <div class="card-image" style="background-image: url(https://via.placeholder.com/640x640);"></div>
+        <div class="card-content">
+          <h3 class="card-title">Song Title</h3>
+          <h4 class="card-subtitle">Artist Name</h4>
+          <p class="card-text">Album Name</p>
+        </div>
+      </div>
     </section>
-    <section id="interests" class="section">
-      <h2 class="section-title">Interests</h2>
-      <p>In my free time, I enjoy [Your Hobbies] and am always looking for new experiences and adventures. Some of my favorite activities include [Your Favorite Activities].</p>
-    </section>
-    <section id="contact" class="section">
-      <h2 class="section-title">Contact</h2>
-      <p>If you would like to get in touch with me, please feel free to reach out via the following methods:</p>
+    <section class="section">
+      <h2 class="section-title">Playlists</h2>
       <ul>
-        <li>Email: [Your Email]</li>
-        <li>Phone: [Your Phone Number]</li>
+        <li class="card">
+          <div class="card-content">
+            <h3 class="card-title">Playlist Title</h3>
+            <h4 class="card-subtitle">Number of Songs</h4>
+          </div>
+        </li>
+        <li class="card">
+          <div class="card-content">
+            <h3 class="card-title">Playlist Title</h3>
+            <h4 class="card-subtitle">Number of Songs</h4>
+          </div>
+        </li>
       </ul>
     </section>
   </div>
+  <footer class="footer">
+    <button class="button">Play</button>
+    <button class="button">Pause</button>
+    <button class="button">Next</button>
+  </footer>
 </body>
 </html>
