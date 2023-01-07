@@ -3,152 +3,36 @@
 <head>
   <meta charset="utf-8">
   <title>My Personal Website</title>
-  <style>
-    body {
-  background-color: #fafafa;
-  color: #1d1f21;
-  font-family: 'Arial', sans-serif;
-  font-size: 16px;
-  margin: 0;
-  padding: 0;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Helvetica', sans-serif;
-  font-weight: 700;
-}
-
-a {
-  color: #61bffc;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #0366d6;
-}
-
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  margin: 10px 0;
-}
-
-p {
-  margin: 10px 0;
-}
-
-.container {
-  margin: 0 auto;
-  max-width: 1080px;
-  padding: 0 20px;
-}
-
-.page-header {
-  background-color: #fff;
-  border-bottom: 1px solid #e5e5e5;
-  display: flex;
-  align-items: center;
-  height: 60px;
-  justify-content: space-between;
-  padding: 0 20px;
-}
-
-.page-title {
-  font-size: 20px;
-  font-weight: 700;
-  margin: 0;
-}
-
-.page-subtitle {
-  color: #9b9b9b;
-  font-size: 14px;
-  font-weight: 400;
-  margin: 0;
-}
-
-.page-actions {
-  display: flex;
-  align-items: center;
-}
-
-.page-action {
-  background-color: #61bffc;
-  border: none;
-  border-radius: 4px;
-  color: #fff;
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: 700;
-  padding: 8px 12px;
-  transition: all 0.2s ease;
-}
-
-.page-action:hover {
-  background-color: #0366d6;
-}
-
-.page-content {
-  margin: 20px 0;
-}
-
-.page-section {
-  margin: 20px 0;
-}
-
-.page-section-header {
-  display: flex;
-  align-items: center;
-  margin: 0 0 10px;
-}
-
-.page-section-title {
-  font-size: 18px;
-  font-weight: 700;
-  margin: 0;
-}
-
-.page-section-actions {
-  display: flex;
-  align-items: center;
-}
-
-.page-section-action {
-  background-color: #61bffc;
-  border: none;
-  border-radius: 4px;
-  color: #fff;
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: 700;
-  padding: 8px 12px;
-  transition: all 0.2s ease;
-}
-
-.page
-
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Welcome to My Personal Website</h1>
-  <p>Hello, my name is [Your Name] and this is my personal website. Here you can learn more about me and my interests.</p>
-  <ul>
-    <li><a href="#about">About Me</a></li>
-    <li><a href="#interests">Interests</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-  <h2 id="about">About Me</h2>
-  <p>I am a [Your Occupation] and have been working in the field for [Number] years. I am passionate about [Your Interests] and always strive to learn and grow in my career.</p>
-  <h2 id="interests">Interests</h2>
-  <p>In my free time, I enjoy [Your Hobbies] and am always looking for new experiences and adventures. Some of my favorite activities include [Your Favorite Activities].</p>
-  <h2 id="contact">Contact</h2>
-  <p>If you would like to get in touch with me, please feel free to reach out via the following methods:</p>
-  <ul>
-    <li>Email: [Your Email]</li>
-    <li>Phone: [Your Phone Number]</li>
-  </ul>
+  <header class="header">
+    <h1 class="header-title">My Personal Website</h1>
+    <nav class="header-nav">
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#interests">Interests</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <section id="about" class="section">
+      <h2 class="section-title">About Me</h2>
+      <p>Hi, my name is [Your Name] and this is my personal website. I am a [Your Occupation] and have been working in the field for [Number] years. I am passionate about [Your Interests] and always strive to learn and grow in my career. Thank you for visiting my website. I hope you enjoy learning more about me!</p>
+    </section>
+    <section id="interests" class="section">
+      <h2 class="section-title">Interests</h2>
+      <p>In my free time, I enjoy [Your Hobbies] and am always looking for new experiences and adventures. Some of my favorite activities include [Your Favorite Activities].</p>
+    </section>
+    <section id="contact" class="section">
+      <h2 class="section-title">Contact</h2>
+      <p>If you would like to get in touch with me, please feel free to reach out via the following methods:</p>
+      <ul>
+        <li>Email: [Your Email]</li>
+        <li>Phone: [Your Phone Number]</li>
+      </ul>
+    </section>
+  </div>
 </body>
 </html>
