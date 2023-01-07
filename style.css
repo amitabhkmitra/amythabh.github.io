@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Roboto+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-  background-color: #121212;
+  background-color: #282828;
   color: #fff;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -10,8 +10,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto Mono', monospace;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 a {
@@ -49,4 +48,77 @@ p {
   justify-content: space-between;
   height: 64px;
   padding: 0 20px;
+  background-color: #282828;
+}
+
+.header-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.header-nav {
+  display: flex;
+}
+
+.header-nav a {
+  margin-left: 20px;
+}
+
+.section {
+  margin: 80px 0;
+}
+
+.section-title {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.card {
+  background-color: #343434;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card-image {
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.card-subtitle {
+  color: #b3b3b3;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.card-text {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.button {
+  background-color: #1db954;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 12px 24px;
+  text-align: center;
+  text-transform: uppercase;
 }
